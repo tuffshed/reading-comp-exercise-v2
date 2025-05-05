@@ -3,9 +3,9 @@ using Bogus;
 
 namespace Api.Repositories;
 
-public static class AccountRepository
+internal static class AccountRepository
 {
-    public static List<Account> Accounts = [];
+    internal static List<Account> Accounts = [];
 
     static AccountRepository()
     {
